@@ -76,6 +76,6 @@ public class Student implements Serializable{
 				+ ", gender=" + gender + "]";
 	}
 	
-	//집에서 깃허브 테스트하기
+	
 	
 }
