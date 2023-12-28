@@ -1,0 +1,25 @@
+
+import javax.servlet.http.*;
+import javax.servlet.*;
+import java.io.*;
+
+public class EX extends HttpServlet {
+	
+	
+	public static int Fi(int en) {
+	    if (en <= 1) {
+	        return en;
+	    } else {
+	        return Fi(en - 1) + Fi(en - 2);
+	    }
+	    
+	}
+	public static void main(String[] args) {
+		
+		int sum = 0;
+		for (int i = 1; i <= 100; i++) {
+			sum += Fi(i);
+		}
+	}
+	
+}

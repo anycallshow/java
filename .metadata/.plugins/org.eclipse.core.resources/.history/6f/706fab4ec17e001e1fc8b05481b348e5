@@ -1,0 +1,17 @@
+package edu.kh.oop.pratice.model.service;
+
+public class BookService {
+	
+	public void practice() {
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

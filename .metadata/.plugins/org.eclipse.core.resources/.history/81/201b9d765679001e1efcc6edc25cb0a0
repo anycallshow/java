@@ -1,0 +1,13 @@
+package edu.kh.array2.practice;
+
+public class Array2Practice {
+
+	public static void main(String[] args) {
+		
+		PracticeRun run = new PracticeRun();
+		
+		run.ex1();
+
+	}
+
+}

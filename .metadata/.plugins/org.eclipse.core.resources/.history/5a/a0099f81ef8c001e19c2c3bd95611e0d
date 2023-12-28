@@ -1,0 +1,34 @@
+<%@ page import="java.io.*,java.util.*" %>
+<%@ page import="java.io.PrintWriter" %>
+<%@ page import="java.io.IOException" %>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci Sum</title>
+</head>
+<body>
+    <%
+        // 피보나치 수열의 합을 구하는 함수
+        public int Fi(int en) {
+            if (en <= 1) {
+                return en;
+            } else {
+                return Fi(en - 1) + Fi(en - 2);
+            }
+        }
+    	
+        // 1부터 100까지의 피보나치 수열의 합 계산
+        int sum = 0;
+        for (int i = 1; i <= 100; i++) {
+            sum += Fi(i);
+        }
+
+    %>
+
+    <h1>Fibonacci Sum</h1>
+    <p>1부터 100까지의 피보나치 수열의 합: <%= sum %></p>
+</body>
+</html>

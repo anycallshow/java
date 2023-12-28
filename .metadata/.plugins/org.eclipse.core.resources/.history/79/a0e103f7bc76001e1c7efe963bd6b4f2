@@ -1,0 +1,10 @@
+package edu.kr.control.loop;
+
+public class ForExample {
+	
+	public void example1() {
+				
+		
+	}
+
+}

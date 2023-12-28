@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;edu.kh.poly.ex2.model.vo.FIsh.java&apos; to &apos;Fish.java&apos;&#x0D;&#x0A;- Original project: &apos;09_polymorphsim&apos;&#x0D;&#x0A;- Original element: &apos;edu.kh.poly.ex2.model.vo.FIsh.java&apos;&#x0D;&#x0A;- Renamed element: &apos;edu.kh.poly.ex2.model.vo.Fish.java&apos;" description="Rename compilation unit &apos;FIsh.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;edu.kh.poly.ex2.model.vo{FIsh.java" name="Fish.java" references="false" stamp="1699841621231" version="1.0"/>
+</session>

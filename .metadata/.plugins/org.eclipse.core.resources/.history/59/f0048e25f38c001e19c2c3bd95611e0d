@@ -1,0 +1,13 @@
+
+public class Method {
+	
+	public int Fi(int en) {
+				
+		if(en <= 1) {
+			return 0;
+		} else {
+	      return Fi(en - 1) + Fi(en - 2);
+		}
+	}
+		
+}

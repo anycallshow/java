@@ -1,0 +1,9 @@
+package edu.kh.oop.pratice.run;
+
+public class PraticeRun {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

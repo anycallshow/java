@@ -1,0 +1,10 @@
+package edu.kh.oop.pratice.model.vo;
+
+public class Book {
+	
+	 String title;
+	private
+	private
+	private
+
+}

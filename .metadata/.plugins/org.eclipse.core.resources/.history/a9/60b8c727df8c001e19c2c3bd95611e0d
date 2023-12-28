@@ -1,0 +1,41 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public public class HelloServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        // 폼에서 입력받은 데이터 가져오기
+        String name = request.getParameter("Name");
+        String number = request.getParameter("Number");
+        String subuni = request.getParameter("Subuni");
+
+        // B의 출력결과를 생성
+        String outputResult = "- 성명: " + name + "<br>" +
+                              "- 학번: " + number + "<br>" +
+                              "- 지역대학: " + subuni;
+
+        // 출력을 위한 response 설정
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+
+        // B의 출력결과를 출력
+        out.println("<html>");
+        out.println("<head>");
+        out.println("<title>서블릿 클래스로 폼정보 넘기기</title>");
+        out.println("</head>");
+        out.println("<body>");
+        out.println("<h2>폼 입력 결과</h2>");
+        out.println(outputResult);
+        out.println("</body>");
+        out.println("</html>");
+
+        out.close();
+    }
+}    

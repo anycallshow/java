@@ -1,0 +1,39 @@
+package edu.kh.array2.practice;
+
+import java.util.Arrays;
+
+public class PracticeRun {
+
+	public void practice1() {
+
+		int[][] arr;
+		arr = new int[3][3];
+
+		for(int row=0; row<arr.length; row++) {
+
+		}
+
+
+
+
+	}
+
+	public void practice2() {
+
+		int[][] arr;
+		arr = new int[4][4];
+		
+		int num = 1;
+		
+		for(int row=0; row<arr.length; row++) { // 행 반복 
+			
+			for(int col=0; col<arr[row].length; col++) { // 열 반복
+				col = num;
+				System.out.print(col);
+			}
+			System.out.println();
+		}
+
+	}
+
+}

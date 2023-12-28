@@ -1,0 +1,23 @@
+package edu.kh.array2.practice;
+
+public class PracticeRun {
+
+	public static void main(String[] args) {
+		
+		Array2Practice run = new Array2Practice();
+		
+//		run.practice1();
+//		run.practice1_1();
+//		run.practice2();
+//		run.practice3();
+//		run.practice4();
+//		run.practice5();
+//		run.practice6();
+//		run.practice7();
+//		run.practice7_1();
+//		run.practice8();
+		run.practice9();
+
+	}
+
+}

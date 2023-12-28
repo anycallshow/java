@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;map&apos; in &apos;edu.kh.collection.model.service.MapService.ex3()&apos; to &apos;temp&apos;&#x0D;&#x0A;- Original project: &apos;11_collection&apos;&#x0D;&#x0A;- Original element: &apos;edu.kh.collection.model.service.MapService.ex3().map&apos;&#x0D;&#x0A;- Renamed element: &apos;map&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;map&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;edu.kh.collection.model.service{MapService.java[MapService~ex3@map!2993!3021!3012!3014!QMap\&lt;QString;QObject;&gt;;!0!false" name="temp" references="true" stamp="1700032501104" version="1.0"/>
+</session>

@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%!
+		public int Fi(int en) {
+		    if (en <= 1) {
+		        return en;
+		    } else {
+		        return Fi(en - 1) + Fi(en - 2);
+		    }
+		}
+		
+%>
+
+<%		
+		int sum = 0;
+		for (int i = 1; i <= 100; i++) {
+		    sum += Fi(i);
+		}
+%>
+	<h1>Fibonacci Sum</h1>
+    <p>1부터 100까지의 피보나치 수열의 합: <%= sum %></p>
+
+</body>
+</html>

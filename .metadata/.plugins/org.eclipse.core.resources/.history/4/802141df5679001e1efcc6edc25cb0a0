@@ -1,0 +1,15 @@
+package edu.kh.array2.practice;
+
+public class PracticeRun {
+	
+	public void practice1() {
+		
+		int[][] arr;
+		arr = new int[3][3];
+		
+		
+		
+		
+	}
+
+}
